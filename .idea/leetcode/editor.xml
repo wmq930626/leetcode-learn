@@ -3,6 +3,30 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/../gp-learn-code/wmq-spring-mvc/src/main/java/leetcode/editor/cn/LongestPalindromicSubstring.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../gp-learn-code/wmq-spring-mvc/src/main/java/leetcode/editor/cn/LongestPalindromicSubstring.java" />
+              <option name="questionId" value="5" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gp-learn-code/wmq-spring-mvc/src/main/java/leetcode/editor/cn/LongestSubstringWithoutRepeatingCharacters.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../gp-learn-code/wmq-spring-mvc/src/main/java/leetcode/editor/cn/LongestSubstringWithoutRepeatingCharacters.java" />
+              <option name="questionId" value="3" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/main/java/leetcode/editor/cn/LongestPalindromicSubstring.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/main/java/leetcode/editor/cn/LongestPalindromicSubstring.java" />
+              <option name="questionId" value="5" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/wmq-spring-mvc/src/main/java/leetcode/editor/cn/AddTwoNumbers.java">
           <value>
             <LeetcodeEditor>
@@ -56,6 +80,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/wmq-spring-mvc/src/main/java/leetcode/leetcode/editor/cn/PermutationsIi.java" />
               <option name="questionId" value="47" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../src/main/java/leetcode/editor/cn/LongestPalindromicSubstring.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../src/main/java/leetcode/editor/cn/LongestPalindromicSubstring.java" />
+              <option name="questionId" value="5" />
             </LeetcodeEditor>
           </value>
         </entry>
