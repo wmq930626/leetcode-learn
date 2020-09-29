@@ -102,9 +102,10 @@ class Solution7 {
         int num = 0;
         for (int i = start; i < str.length(); i++) {
             if ((str.charAt(i) >= 48 && str.charAt(i) <= 57)){
-                if (num > Integer.MAX_VALUE / 10 || (num == Integer.MAX_VALUE / 10 && Integer.valueOf(str.charAt(i)+"") > 7))
+                int tailNum = Integer.parseInt(str.charAt(i) + "");
+                if (num > Integer.MAX_VALUE / 10 || (num == Integer.MAX_VALUE / 10 && tailNum > 7))
                     return Integer.MAX_VALUE;
-                if (num < Integer.MIN_VALUE / 10 || (num == Integer.MIN_VALUE / 10 && -Integer.valueOf(str.charAt(i)+"") < -8))
+                if (num < Integer.MIN_VALUE / 10 || (num == Integer.MIN_VALUE / 10 && -tailNum < -8))
                     return Integer.MIN_VALUE;
                 numStr += str.charAt(i);
                 num = Integer.valueOf(numStr);
