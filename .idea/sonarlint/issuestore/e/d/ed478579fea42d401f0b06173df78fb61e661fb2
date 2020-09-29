@@ -1,0 +1,59 @@
+
+{
+java:S22932"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÌÇéüÿÿÿÿ8ä®Ø­°.
+Y	java:S125»"<This block of commented-out lines of code should be removed.(İµœÒ8ä®Ø­°.
+F
+java:S1148Ü"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ä®Ø­°.
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(îÁ–ûÿÿÿÿ8âš¸“³.
+X
+java:S1068("6Remove this unused "applicationContext" private field.(î‡²şÿÿÿÿ8ŒªºÔ°.
+F
+java:S1148°"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ä®Ø­°.
+m
+java:S1989I"PHandle the following exception that could be thrown by "getWriter": IOException.(ò­Üñ8ä®Ø­°.
+X
+java:S10680"6Remove this unused "handlerMappingList" private field.(ğ¹•âûÿÿÿÿ8“åñÉ².
+T	java:S106%"9Replace this use of System.out or System.err by a logger.(°¾Ù"8ã—Œä».
+
+java:S1989‘"^Handle the following exception that could be thrown by "getDeclaredFields": SecurityException.(Ó«÷ìşÿÿÿÿ8ä®Ø­°.
+‚
+java:S19896"`Handle the following exceptions that could be thrown by "doPost": ServletException, IOException.(éöõ¦ùÿÿÿÿ8ä®Ø­°.
+z
+java:S1989š"WHandle the following exception that could be thrown by "set": IllegalArgumentException.(øü„”ÿÿÿÿÿ8ä®Ø­°.
+@
+java:S2653""#Remove this unwanted "main" method.(Çµí‘8ö¸¶“³.
+±
+java:S1989R"Handle the following exceptions that could be thrown by "invoke": IllegalAccessException, IllegalArgumentException, InvocationTargetException.(àÃ‰¬ùÿÿÿÿ8ä®Ø­°.
+z
+java:S2226*"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(¾«Öşüÿÿÿÿ8ä®Ø­°.
+E
+java:S1148?"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ä®Ø­°.
+z
+java:S22262"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ÌÇéüÿÿÿÿ8ä®Ø­°.
+ƒ
+java:S1450("aRemove the "applicationContext" field and declare it as a local variable in the relevant methods.(î‡²şÿÿÿÿ8¨¸»Ô°.
+z
+java:S2226,"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"( Óœ±øÿÿÿÿ8ä®Ø­°.
+[	java:S106‡"9Replace this use of System.out or System.err by a logger.(ÇÊÑéùÿÿÿÿ8ä®Ø­°.
+U	java:S106m"9Replace this use of System.out or System.err by a logger.(ùø¢ñ8ä®Ø­°.
+F
+java:S1148Ö"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ä®Ø­°.
+Q
+java:S2201…".The return value of "replaceAll" must be used.(ÃÑ‡ÿÿÿÿÿ8ä®Ø­°.
+z
+java:S2226."XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ÚÒš»úÿÿÿÿ8ä®Ø­°.
+{
+java:S2293."YReplace the type specification in this constructor call with the diamond operator ("<>").(ÚÒš»úÿÿÿÿ8ä®Ø­°.
+z
+java:S22260"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ğ¹•âûÿÿÿÿ8“åñÉ².
+F
+java:S1148œ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ä®Ø­°.
+Z
+java:S3878R"8Remove this array creation and simply pass the elements.(àÃ‰¬ùÿÿÿÿ8ä®Ø­°.
+V
+java:S1874«"3Remove this use of "newInstance"; it is deprecated.(¥Ï ªşÿÿÿÿ8ä®Ø­°.
+a	java:S112C"FDefine and throw a dedicated exception instead of using a generic one.(²éõ~8ä®Ø­°.
+y
+java:S1989"WHandle the following exception that could be thrown by "getMethods": SecurityException.(äÂú÷ÿÿÿÿÿ8ä®Ø­°.
+Q
+java:S3740,"/Provide the parametrized type for this generic.( Óœ±øÿÿÿÿ8ä®Ø­°.

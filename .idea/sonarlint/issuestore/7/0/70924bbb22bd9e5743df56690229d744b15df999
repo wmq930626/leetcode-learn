@@ -1,0 +1,13 @@
+
+P
+java:S1874v"3Remove this use of "newInstance"; it is deprecated.(ÍÉ8¨¿ü°.
+L
+java:S3740"/Provide the parametrized type for this generic.(²˜Ä8å¾ÎÔ°.
+b	java:S1122"FDefine and throw a dedicated exception instead of using a generic one.(¢öşÛ8²±Õû°.
+C
+java:S1172S"&Remove these unused method parameters.(í“É„8ƒâÿû°.
+E	java:S108f")Either remove or fill this block of code.(”ı¾8„‘³ü°.
+L
+java:S3740"/Provide the parametrized type for this generic.(¹Ë«ç8ş·Ô°.
+E
+java:S1148y"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¨¿ü°.
