@@ -19,7 +19,8 @@
 // Related Topics 数组 双指针 
 // 👍 1877 👎 0
 
-*/
+*//*
+
 package leetcode.editor.cn;
 public class ContainerWithMostWater {
     public static void main(String[] args) {
@@ -34,3 +35,4 @@ class Solution {
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
+*/
