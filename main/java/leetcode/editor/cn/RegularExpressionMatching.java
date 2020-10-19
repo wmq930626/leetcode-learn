@@ -60,17 +60,32 @@
 // 👍 1583 👎 0
 
 */
-/*package leetcode.editor.cn;
+package leetcode.editor.cn;
 public class RegularExpressionMatching {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution10 solution = new Solution10();
     }
 }
 
  //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution10 {
     public boolean isMatch(String s, String p) {
+        int sl = s.length();
+        int pl = p.length();
+        int i = 0, j = 0;
+        // ppptlkkj
+        // .p*tlk*kj
 
+        while (i < sl || j < pl){
+            char ci = s.charAt(i);
+            char pj = p.charAt(j);
+            if (pj == '.' || pj == ci){
+                i++;
+                j++;
+            }
+
+        }
+        return true;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)*/

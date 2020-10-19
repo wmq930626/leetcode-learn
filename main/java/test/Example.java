@@ -8,6 +8,8 @@ public class Example{
         ex.change(ex.str,ex.ch);
         System.out.print(ex.str + " and ");
         System.out.print(ex.ch);
+        System.out.println(101&18);
+        System.out.println((101%8)==(101&7));
     }
     public void change(String str,char ch[ ]){
         str = "test ok";

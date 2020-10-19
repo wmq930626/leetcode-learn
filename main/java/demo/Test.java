@@ -1,5 +1,8 @@
 package demo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Test {
 
     /**
@@ -10,15 +13,26 @@ public class Test {
      * @param args
      */
     public static void main(String[] args) {
-        for (int i = 0; i <= 20; i++) {
-            for (int j = 0; j <= 33; j++) {
-                if (i*5 + j*3 + (100-i - j)/3 == 100 && (100-i - j)%3 == 0){
-                    System.out.print(i + "只公鸡");
-                    System.out.print(j + "只母鸡");
-                    System.out.print((100-i - j) + "只小鸡");
-                    System.out.println();
-                }
-            }
+        ArrayList<String> sortList = new ArrayList<>();
+        addAtIndex(sortList,-1,"11111111111111");
+        addAtIndex(sortList,-2,"333333333333333");
+        addAtIndex(sortList,3,"44444444444444");
+        addAtIndex(sortList,4,"55555555555555555");
+        sortList.forEach(t-> System.out.println(t));
+        System.out.println("=====================");
+        addAtIndex(sortList,2,"222222222222222");
+        addAtIndex(sortList,20,"666666666666666");
+        sortList.forEach(t-> System.out.println(t));
+    }
+    private static void addAtIndex(List<String> sortList,int index,String element){
+        if (sortList.size() == 0 || index < 0){
+            sortList.add(0,element);
+            return;
+        }
+        if (index > sortList.size()){
+            sortList.add(sortList.size() ,element);
+        }else {
+            sortList.add(index-1,element);
         }
     }
 }
