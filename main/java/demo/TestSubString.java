@@ -1,11 +1,17 @@
 package demo;
 
+import com.sun.deploy.util.StringUtils;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 /**
  * 字符串匹配算法
  */
 public class TestSubString {
     public static void main(String[] args) {
-        String parent = "hello world";
+        String parent = "hello world ever one";
         String sub1 = "l";
         String sub2 = "llo wor";
         String sub3 = " world hello";
@@ -18,6 +24,7 @@ public class TestSubString {
         System.out.println(maxCommonSun(parent,sub1));
         System.out.println(maxCommonSun(parent,sub2));
         System.out.println(maxCommonSun(parent,sub3));
+        System.out.println(reverseString(parent));
     }
 
     /**
@@ -80,6 +87,25 @@ public class TestSubString {
         }
 
         return maxSubStr;
+    }
+
+    /**
+     * 字符串反转
+     * @param str
+     * @return
+     */
+    public static String reverseString(String str){
+        List<String> stringList = Arrays.asList(str.split(" "));
+        Collections.reverse(stringList);
+        String reverse = "";
+        for (int i = 0; i < stringList.size(); i++) {
+            if (i == stringList.size() - 1){
+                reverse += stringList.get(i);
+            }else {
+                reverse += stringList.get(i) + " ";
+            }
+        }
+        return reverse;
     }
 
 }
