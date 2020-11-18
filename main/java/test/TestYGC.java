@@ -2,16 +2,16 @@ package test;
 
 public class TestYGC {
     public static void main(String[] args) {
-        byte[] array1 = new byte[1024*1024*1];
-        byte[] array2 = new byte[1024*1024*8];
+        byte[] array1 = new byte[1024*1024*1];// 1
+        byte[] array2 = new byte[1024*1024*8];// 9
         //array1 = null;
         //array2 = null;
-        byte[] array3 = new byte[1024*1024*1];
-        byte[] array4 = new byte[1024*1024*8];
+        byte[] array3 = new byte[1024*1024*1];// 10
+        byte[] array4 = new byte[1024*1024*8];// 18
         //array3 = null;
         //array4 = null;
-        byte[] array5 = new byte[1024*1024*1];
-        byte[] array6 = new byte[1024*1024*8];
+        byte[] array5 = new byte[1024*1024*1];// 19
+        byte[] array6 = new byte[1024*1024*8];// 27
         array5 = null;
         array6 = null;
         byte[] array7 = new byte[1024*1024*1];
