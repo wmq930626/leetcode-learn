@@ -14,16 +14,11 @@ import java.util.concurrent.Executors;
 
 public class 线程栏栅的使用方式 {
 
-// 徒步需要的时间: Shenzhen, Guangzhou, Shaoguan, Changsha, Wuhan
-
+    // 徒步需要的时间: Shenzhen, Guangzhou, Shaoguan, Changsha, Wuhan
     private static int[] timeWalk = {5, 8, 15, 15, 10};
-
-// 自驾游
-
+    // 自驾游
     private static int[] timeSelf = {1, 3, 4, 4, 5};
-
-// 旅游大巴
-
+    // 旅游大巴
     private static int[] timeBus = {2, 4, 6, 6, 7};
 
     static String now() {

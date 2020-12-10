@@ -1,9 +1,26 @@
 package test;
 
+/**
+ * -Xms100M
+ * -Xmx100M
+ * -Xmn50M
+ * -Xss1M
+ * -XX:SurvivorRatio=8
+ * -XX:MaxTenuringThreshold=5
+ * -XX:PretenureSizeThreshold=10M
+ * -XX:+UseParNewGC
+ * -XX:+UseConcMarkSweepGC
+ * -XX:+PrintGC
+ *
+ * 老年代 50M
+ * Eden 40M
+ * S1 5M
+ * S2 5M
+ */
 public class TestYGC {
     public static void main(String[] args) {
-        byte[] array1 = new byte[1024*1024*1];// 1
-        byte[] array2 = new byte[1024*1024*8];// 9
+        byte[] array1 = new byte[1024*1024*20];// 20
+        byte[] array2 = new byte[1024*1024*20];// 20
         //array1 = null;
         //array2 = null;
         byte[] array3 = new byte[1024*1024*1];// 10

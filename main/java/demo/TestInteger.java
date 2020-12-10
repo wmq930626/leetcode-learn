@@ -25,6 +25,30 @@ public class TestInteger {
 
         System.out.println(square(11,0.000000001));
         System.out.println(Math.sqrt(11));
+
+      /*  Integer h = null;
+        int j = h;
+        System.out.println(j);*/
+
+        final char[] chars = {'a','b'};
+        chars[1] = 'r';
+
+        String str1 = "abc";
+        String str2 = "abc";
+        System.out.println(str1 == str2);
+
+        int num = 3;
+        String str3 = new String("hello world");
+        setValue(num,str3);
+        System.out.println(num);
+        System.out.println(str3);
+    }
+
+    public static  void setValue(int num,String str){
+        num = 10;
+        str += " hello";
+        System.out.println(num);
+        System.out.println(str);
     }
 
     /**
