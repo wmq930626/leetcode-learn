@@ -18,10 +18,10 @@ public class 快速排序 {
         long start = System.currentTimeMillis();
         //System.out.println("原始数据: " + Arrays.toString(arr));
         //customQuickSort(arr, 0, arr.length - 1);
-        searchK(arr, 0, arr.length - 1,999);
-        Arrays.sort(arr);
+        searchK(arr, 0, arr.length - 1,9999);
+        /*Arrays.sort(arr);
         int i = arr[998];
-        System.out.println(i);
+        System.out.println(i);*/
         long end = System.currentTimeMillis();
         System.out.println("快速排序查找size为1000000的数组中第K大的元素一共耗时：" + (end - start));
         //System.out.println("快速排序: " + Arrays.toString(arr));

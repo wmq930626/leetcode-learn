@@ -23,8 +23,8 @@ public class TestInteger {
         System.out.println(e == f);// false
         System.out.println(c == g);
 
-        System.out.println(square(11,0.000000001));
-        System.out.println(Math.sqrt(11));
+        System.out.println(square(3,0.000000001));
+        System.out.println(Math.sqrt(3));
 
       /*  Integer h = null;
         int j = h;
