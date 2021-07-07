@@ -43,6 +43,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/main/java/leetcode/editor/cn/P剑指 Offer 15ErJinZhiZhong1deGeShuLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/main/java/leetcode/editor/cn/P剑指 Offer 15ErJinZhiZhong1deGeShuLcof.java" />
+              <option name="questionId" value="100292" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/main/java/leetcode/editor/cn/RegularExpressionMatching.java">
           <value>
             <LeetcodeEditor>
@@ -64,6 +72,22 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/main/java/leetcode/editor/cn/StringToIntegerAtoi.java" />
               <option name="questionId" value="8" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/main/java/leetcode/editor/cn/[剑指 Offer 15]二进制中1的个数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/main/java/leetcode/editor/cn/[剑指 Offer 15]二进制中1的个数.java" />
+              <option name="questionId" value="100292" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/main/java/leetcode/editor/cn/二进制中1的个数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/main/java/leetcode/editor/cn/二进制中1的个数.java" />
+              <option name="questionId" value="100292" />
             </LeetcodeEditor>
           </value>
         </entry>
