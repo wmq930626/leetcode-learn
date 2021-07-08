@@ -8,16 +8,12 @@ import netty.response.ResponseSample;
 
 public class RequestSampleHandler extends ChannelInboundHandlerAdapter {
 
-  @Override
+    @Override
 
-  public void channelRead(ChannelHandlerContext ctx, Object msg) {
-
-    String data = ((ByteBuf) msg).toString(CharsetUtil.UTF_8);
-
-    ResponseSample response = new ResponseSample("OK", data, System.currentTimeMillis());
-
-    ctx.channel().writeAndFlush(response);
-
-  }
+    public void channelRead(ChannelHandlerContext ctx, Object msg) {
+        String data = ((ByteBuf) msg).toString(CharsetUtil.UTF_8);
+        ResponseSample response = new ResponseSample("OK", data, System.currentTimeMillis());
+        ctx.channel().writeAndFlush(response);
+    }
 
 }
